@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando os primeiro codigos em JS</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, rgb(128, 128, 189),rgb(80, 76, 76));
+            color: white;
+            text-align: center;
+            font-size: 19px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 20px ;
+        }
+        p{
+            color: black;
+            transition-duration: .2s;
+
+        }
+        p:hover{
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: underline;
+            transition-duration: .2s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Eu amo a minha namorada, quando ela ver isso ela vai gosta de mais cara</p>
+    
+    <script>
+        var n1 =Number(window.prompt('Digite um numero: '));
+        var n2  =Number(window.prompt('Digite outro numero: '));
+        var s = n1+n2
+        window.alert(`A soma do valor ${n1 } e do ${n2} vai da ${s}`);//concatenação
+        //+  adição 
+
+    </script>
+</body>
+</html>
