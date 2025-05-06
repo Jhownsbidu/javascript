@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+</head>
+<body>
+    <h1>Sistema de Multa</h1>
+    Velocidade do carro: <input type="number" name="vel" id="vel"> km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div class="res">
+
+    </div>
+    
+    <script>
+        function calcular(){
+            var vell = window.document.querySelector('input#vel')
+            var  res =window.document.querySelector('div.res')
+            var vel =Number(vell.value)
+            res.innerHTML =`<p>Sua velocidade é de <strong>${vel}km/h</strong></p>`
+            if (vel > 50){
+                res.innerHTML +=(`Você foi <strong>MULTADO</strong>, por passa acima da velocidade permitida.`)
+            } 
+            
+            res.innerHTML += `<p>DIrija sempre com o cinto de segurança</p>`
+
+        }
+    </script>
+
+    <h1>País que esta vitando</h1>
+    Diga um País: <input type="text" name="text" id="text">
+    <input type="button" value="Procura" onclick="ver()">
+    <div class="achar"></div>
+
+    <script>
+        function ver(){
+            var país = window.document.querySelector('input#tetxt')
+            var achar =window.document.querySelector('div.achar')
+          
+
+            achar.innerHTML =`<p>Seja muito bem-vindo ao ${text} que você tenha um bom dia.</p>`
+          
+        }
+
+    </script>
+</body>
+</html>
