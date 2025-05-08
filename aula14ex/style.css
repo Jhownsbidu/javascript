@@ -1,0 +1,101 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(70, 70, 230) 50%, white);
+    text-align: 00px;
+}
+header{
+    display: block;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 500px;
+}
+section{
+    
+    display: auto;
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    margin-left: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.458)
+    
+
+    
+}
+#dados > p{
+    padding-left: 10px;
+    line-height: 3em;
+    font-size: 1.5em;
+   
+}
+p:hover{
+    color: rgb(66, 64, 64);
+    cursor: pointer;
+}
+input{
+   
+    font-size: .7em;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+#res{
+   
+    font-size: 1.4em;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 689px;
+}
+
+footer  p >a{
+
+    padding-left: 600px;
+    margin-top: 20px;
+    
+    color: white;
+    font-size: 1.3em;
+    
+}
+.contar input {
+    font-size: .9em;
+    margin-left: 6px;
+    width: 90px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: .4s;
+
+    
+}
+.contar input:hover{
+    color: white;
+    background-color: black;
+    font-family: 'Lucida Sans',;
+    transition-duration: .2s;
+} 
+
+footer p a {
+    color: black;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+footer p a:hover{
+    color: white;
+    font-size: 25px;
+    transition-duration: .2s;
+}
+footer p a:active{
+    color: red;
+}
