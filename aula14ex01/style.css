@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-image: linear-gradient(to right, rgb(212, 109, 109) 20%, rgb(169, 156, 156));
+    color: white;
+}
+header{
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+section{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    margin: auto;
+    color: black;
+}
+#conta{
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 1.5em;
+
+}
+.botao{
+    border-radius: 7px;
+    font-size: 16px;
+    text-align: center ;
+    padding-top: 6px;
+
+}
+.entrar{
+    font-size: 20px;
+    border-radius: 6px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom:1px;
+    background-image: linear-gradient(to top, rgb(71, 69, 69), rgb(214, 209, 209));
+    color: white;
+    cursor: pointer;
+
+}
+.entrar:hover{
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(87, 87, 87), white);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 19px;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    transition-duration: .2s;
+
+}
+a:hover{
+    color: white;
+    font-size: 21px;
+    text-decoration: underline;
+    transition-duration: .2s;
+}
+a:active{
+    color: yellow;
+}
+.tabu{
+    padding-left: 1px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.213);
+    margin-left:130px;
+}
+option{
+    padding-left: 0px;
+    margin: 0px;
+    
+
+    
+}
